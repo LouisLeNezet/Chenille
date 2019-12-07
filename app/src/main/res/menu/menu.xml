@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Main">
+
+
+    <item
+        android:id="@+id/action_gps"
+        android:icon="@android:drawable/ic_dialog_map"
+        android:title="@string/MenuGPS"
+        app:showAsAction="ifRoom"></item>
+    <item
+        android:id="@+id/action_infos"
+        android:icon="@android:drawable/ic_dialog_info"
+        android:title="@string/MenuInfos"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/action_bar_notifs"
+        android:actionLayout="@layout/switch_item"
+        android:checkable="true"
+        android:title="@string/MenuNotif"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_aiguille"
+        android:title="@string/MenuAiguille"
+        app:showAsAction="ifRoom" />
+</menu>

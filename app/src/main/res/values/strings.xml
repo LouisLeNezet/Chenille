@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Chenille</string>
+    <string name="PositAig">PositAig</string>
+    <string name="Fond">Fond</string>
+    <string name="BtnFamille">BtnFamille</string>
+    <string name="BtnTravail">BtnTravail</string>
+    <string name="Aiguille">Aiguille</string>
+    <string name="BtnVoyage">BtnVoyage</string>
+    <string name="BtnDehors">BtnDehors</string>
+    <string name="BtnJoker">BtnJoker</string>
+    <string name="BtnPense">BtnPense</string>
+    <string name="BtnMaison">BtnMaison</string>
+    <string name="BtnPasNvl">BtnPasNvl</string>
+    <string name="BtnRentrer">BtnRentrer</string>
+    <string name="Titre">Famille Le Nézet</string>
+    <string name="PositionAiguille">PositAig</string>
+    <string name="Logo">Logo</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="google_maps_key">AIzaSyAtJai9838-7gNQsQhaEg_svsIHyDpd4QM</string>
+    <string name="LeNezet">Le Nézet</string>
+    <string name="Famille">Famille</string>
+    <string name="MenuInfos">Infos</string>
+    <string name="MenuGPS">GPS</string>
+    <string name="MenuNotif">Notifications</string>
+    <string name="MenuAiguille">Choix aiguille</string>
+</resources>

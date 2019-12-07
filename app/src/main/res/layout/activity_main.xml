@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main"
+    tools:layout_editor_absoluteY="25dp">
+
+    <ImageView
+        android:id="@+id/Aiguille"
+        android:layout_width="40dp"
+        android:layout_height="100dp"
+        android:adjustViewBounds="false"
+        android:contentDescription="@string/Aiguille"
+        android:cropToPadding="false"
+        android:rotation="0"
+        android:transformPivotX="20dp"
+        android:transformPivotY="100dp"
+        android:translationZ="1dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Fond"
+        app:layout_constraintEnd_toEndOf="@+id/Fond"
+        app:layout_constraintVertical_bias="0.33"
+        app:layout_constraintStart_toStartOf="@+id/Fond"
+        app:layout_constraintTop_toTopOf="@+id/Fond"
+        app:srcCompat="@mipmap/aig_defaut"
+        tools:layout_conversion_absoluteHeight="47dp"
+        tools:layout_conversion_absoluteWidth="123dp"
+        android:src="@mipmap/aig_defaut"
+        tools:srcCompat="@mipmap/aig_defaut" />
+
+    <ImageView
+        android:id="@+id/Fond"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="8dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/Fond"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Titre"
+        app:srcCompat="@mipmap/fond"
+        android:src="@mipmap/fond"
+        tools:srcCompat="@mipmap/fond" />
+
+    <ImageView
+        android:id="@+id/BtnFamille"
+        android:layout_width="76dp"
+        android:layout_height="49dp"
+        android:layout_marginTop="2dp"
+        android:contentDescription="@string/BtnFamille"
+        android:onClick="Famille"
+        app:layout_constraintEnd_toEndOf="@+id/Fond"
+        app:layout_constraintStart_toStartOf="@+id/Fond"
+        app:layout_constraintTop_toTopOf="@+id/Fond"
+        android:src="@mipmap/famille"
+        app:srcCompat="@mipmap/famille" />
+
+    <ImageView
+        android:id="@+id/BtnAuTravail"
+        android:layout_width="101dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:contentDescription="@string/BtnTravail"
+        android:onClick="Travail"
+        app:layout_constraintBottom_toBottomOf="@+id/Fond"
+        app:layout_constraintEnd_toEndOf="@+id/Fond"
+        app:layout_constraintTop_toTopOf="@+id/Fond"
+        app:layout_constraintVertical_bias="0.125"
+        android:src="@mipmap/autravail"
+        app:srcCompat="@mipmap/autravail" />
+
+    <ImageView
+        android:id="@+id/BtnVoyage"
+        android:layout_width="44dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:contentDescription="@string/BtnVoyage"
+        android:onClick="Voyage"
+        app:layout_constraintBottom_toBottomOf="@+id/Fond"
+        app:layout_constraintEnd_toEndOf="@+id/Fond"
+        app:layout_constraintTop_toTopOf="@+id/Fond"
+        app:layout_constraintVertical_bias="0.398"
+        android:src="@mipmap/voyage"
+        app:srcCompat="@mipmap/voyage" />
+
+    <ImageView
+        android:id="@+id/BtnDehors"
+        android:layout_width="76dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:contentDescription="@string/BtnDehors"
+        android:onClick="Dehors"
+        app:layout_constraintBottom_toBottomOf="@+id/Fond"
+        app:layout_constraintEnd_toEndOf="@+id/Fond"
+        app:layout_constraintTop_toTopOf="@+id/Fond"
+        app:layout_constraintVertical_bias="0.751"
+        android:src="@mipmap/dehors"
+        app:srcCompat="@mipmap/dehors" />
+
+    <ImageView
+        android:id="@+id/BtnJoker"
+        android:layout_width="68dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="2dp"
+        android:contentDescription="@string/BtnJoker"
+        android:onClick="Joker"
+        app:layout_constraintBottom_toBottomOf="@+id/Fond"
+        app:layout_constraintEnd_toEndOf="@+id/Fond"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="@+id/Fond"
+        android:src="@mipmap/joker"
+        app:srcCompat="@mipmap/joker" />
+
+    <ImageView
+        android:id="@+id/BtnPenseAVous"
+        android:layout_width="114dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="2dp"
+        android:contentDescription="@string/BtnPense"
+        android:onClick="PenseAVous"
+        app:layout_constraintBottom_toBottomOf="@+id/Fond"
+        app:layout_constraintEnd_toEndOf="@+id/Fond"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="@+id/Fond"
+        android:src="@mipmap/penseavous"
+        app:srcCompat="@mipmap/penseavous" />
+
+    <ImageView
+        android:id="@+id/BtnALaMaison"
+        android:layout_width="66dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:contentDescription="@string/BtnMaison"
+        android:onClick="ALaMaison"
+        app:layout_constraintBottom_toBottomOf="@+id/Fond"
+        app:layout_constraintStart_toStartOf="@+id/Fond"
+        app:layout_constraintTop_toTopOf="@+id/Fond"
+        app:layout_constraintVertical_bias="0.78"
+        android:src="@mipmap/alamaison"
+        app:srcCompat="@mipmap/alamaison" />
+
+    <ImageView
+        android:id="@+id/BtnPasDeNouvelles"
+        android:layout_width="49dp"
+        android:layout_height="82dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription="@string/BtnPasNvl"
+        android:onClick="PasDeNouvelles"
+        app:layout_constraintBottom_toBottomOf="@+id/Fond"
+        app:layout_constraintStart_toStartOf="@+id/Fond"
+        app:layout_constraintTop_toTopOf="@+id/Fond"
+        app:layout_constraintVertical_bias="0.389"
+        android:src="@mipmap/pasdenouvelle"
+        app:srcCompat="@mipmap/pasdenouvelle" />
+
+    <ImageView
+        android:id="@+id/BtnVeuxRentrer"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:contentDescription="@string/BtnRentrer"
+        android:onClick="VeuxRentrer"
+        app:layout_constraintBottom_toBottomOf="@+id/Fond"
+        app:layout_constraintStart_toStartOf="@+id/Fond"
+        app:layout_constraintTop_toTopOf="@+id/Fond"
+        app:layout_constraintVertical_bias="0.120000005"
+        android:src="@mipmap/veuxrentrer"
+        app:srcCompat="@mipmap/veuxrentrer" />
+
+    <TextView
+        android:id="@+id/Titre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/Titre"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:fontFamily="cursive"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>
